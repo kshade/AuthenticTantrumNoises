@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <SoundDef>
+    <defName>kshTantrum</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>1</maxSimultaneous>
+    <maxVoices>20</maxVoices>
+    <subSounds>
+      <li>
+        <volumeRange>100.0</volumeRange>
+        <distRange>0.0~50.0</distRange>
+        <muteWhenPaused>True</muteWhenPaused>
+        <tempoAffectedByGameSpeed>True</tempoAffectedByGameSpeed>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pawn/Animal/Human/Human_Tantrum1</clipPath>
+          </li>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pawn/Animal/Human/Human_Tantrum2</clipPath>
+          </li>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pawn/Animal/Human/Human_Tantrum3</clipPath>
+          </li>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pawn/Animal/Human/Human_Tantrum4</clipPath>
+          </li>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pawn/Animal/Human/Human_Tantrum5</clipPath>
+          </li>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pawn/Animal/Human/Human_Tantrum6</clipPath>
+          </li>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pawn/Animal/Human/Human_Tantrum7</clipPath>
+          </li>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pawn/Animal/Human/Human_Tantrum8</clipPath>
+          </li>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pawn/Animal/Human/Human_Tantrum9</clipPath>
+          </li>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pawn/Animal/Human/Human_Tantrum10</clipPath>
+          </li>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pawn/Animal/Human/Human_Tantrum11</clipPath>
+          </li>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pawn/Animal/Human/Human_Tantrum12</clipPath>
+          </li>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Pawn/Animal/Human/Human_Tantrum15</clipPath>
+          </li>
+        </grains>
+      </li>
+    </subSounds>
+  </SoundDef>
+</Defs>

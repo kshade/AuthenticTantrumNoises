@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/MentalStateDef[defName="Tantrum"]/stateEffecter</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/MentalStateDef[defName="Tantrum"]</xpath>
+      <value>
+        <stateEffecter>kshTantrum</stateEffecter>
+      </value>
+    </nomatch>
+  </Operation>
+</Patch>

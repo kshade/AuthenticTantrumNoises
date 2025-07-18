@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <EffecterDef>
+    <defName>kshTantrum</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SoundIntermittent</subEffecterClass>
+        <soundDef>kshTantrum</soundDef>
+        <ticksBeforeSustainerStart>0</ticksBeforeSustainerStart>
+        <intermittentSoundInterval>
+            <min>230</min>
+            <max>300</max>
+        </intermittentSoundInterval>
+      </li>
+    </children>
+  </EffecterDef>
+</Defs>
